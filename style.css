@@ -470,7 +470,7 @@ h2 {
 
 
 /* --------------------------------------------------------------------------
-   10.5 Images
+   10.2 Images
    -------------------------------------------------------------------------- */
 .image-container {
     text-align: center;
@@ -488,6 +488,30 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: block;
     margin: 20px auto;
+}
+
+/* --------------------------------------------------------------------------
+   10.4 Video
+   -------------------------------------------------------------------------- */
+
+/* Style for company showcase video */
+.company-video {
+    width: 100%;              /* Responsive width on mobile and desktop */
+    max-width: 640px;         /* Keeps video clean and sharp on larger screens */
+    height: auto;             /* Preserves aspect ratio */
+    border-radius: 10px;      /* Matches modern card corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    display: block;
+    margin: 20px auto;        /* Centers the video horizontally */
+}
+
+/* Matching container for video section */
+.video-container {
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
 
